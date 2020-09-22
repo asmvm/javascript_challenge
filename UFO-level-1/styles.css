@@ -1,6 +1,12 @@
 #background-image {
-    background: url(Images/daft_punk_wall_3.jpg);
-    background-size: contain;
+    background: url(Images/background.jpg);
+    background-size: auto;
     opacity: .45;
-
 }
+
+.nav-ufo {
+    position: -webkit-sticky;
+    bottom: 5px;
+    left: 150px;
+    width: 35px;
+  }
