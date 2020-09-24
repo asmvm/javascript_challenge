@@ -10,3 +10,11 @@
     left: 150px;
     width: 35px;
   }
+
+.h1 {
+    font-weight: 900;
+    margin-top:90%; 
+    left:10px;
+    font-size: 50px;
+    color:#fff;
+  }
