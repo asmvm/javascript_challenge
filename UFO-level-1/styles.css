@@ -24,7 +24,9 @@
   overflow-x: auto;
   height: 500px;
 }
-
+#table-area tr:hover {
+  color: mediumspringgreen;
+}
 .navbar {
   height: 30px
 }
@@ -36,3 +38,4 @@
   justify-content:center;
   align-items:center;
 }
+
