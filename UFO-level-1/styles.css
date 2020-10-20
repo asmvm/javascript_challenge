@@ -39,3 +39,15 @@
   align-items:center;
 }
 
+.footer {
+  position:fixed;
+  bottom: 0;
+  width: 50px;
+  height: 50%;
+  line-height: 60px;
+  margin: 0;
+  width: 100%;
+  height:60px;
+  background-color: rgb(26, 32, 39);
+  text-align: center;
+}

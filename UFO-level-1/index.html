@@ -11,7 +11,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <title>Aliens Exist</title>
+    <link rel="icon" href="https://www.flaticon.com/svg/static/icons/svg/179/179595.svg"
+   
   </head>
   
   
@@ -43,11 +47,24 @@
             <div class="card-body">
               <form id="form">
                 <div class="form-group">
-                  <label for="formDateInput">Date Filter</label>
+                  
+                  <label >
+                    <label for="formDateInput">Filter</label>
+                    <!-- <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span id="selected">Filter</span>
+                    </a> -->
+                  
+                    <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item 1" href="#">Date</a>
+                      <a class="dropdown-item 2" href="#">City</a>
+                      <a class="dropdown-item 3" href="#">State</a>
+                    </div> -->
+                  </label>
+                  
                   <input type="text" class="form-control" id="formGroupExampleInput"placeholder="1/11/2010">
-                  <small id="formHelp" class="form-text text-muted">1/1/2010 to 1/13/2010</small>
+                  <!-- <small id="formHelp" class="form-text text-muted">1/1/2010 to 1/13/2010</small> -->
                 </div>  
-                <button id="datebutton" type="button" class="btn btn-success">Submit</button>
+                <button id="filterbutton" type="button" class="btn btn-success">Submit</button>
               </form>             
             </div>
 
@@ -81,12 +98,12 @@
         </div>
       </div>
     </div>
-
     
-    <!-- <footer class="footer">
-      <span class="bottom">UFO Sightings</span>
-    </footer> -->
-  </div>
+    
+    <footer class="footer">
+        <span class="bottom">UFO Sightings</span>
+    </footer>
+    
     
     <!-- Optional JavaScript -->
     <script type="text/javascript" src="data.js"></script>
