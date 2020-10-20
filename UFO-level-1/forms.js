@@ -17,16 +17,22 @@ button.on("click", runDatetime);
 form.on("submit",runDatetime);
 
 
-//city filter
-button.on("click", runCity);
-form.on("submit",runCity);
+// //city filter
+// button.on("click", runCity);
+// form.on("submit",runCity);
 
-//state filter
-button.on("click", runState);
-form.on("submit",runState);
+// //state filter
+// button.on("click", runState);
+// form.on("submit",runState);
 
 //reset filter
 resetButton.on("click", reset);
+
+function reset() {
+  tbody.html("");
+  d3.event.preventDefault();
+  data.forEach(UFOsightings);
+};
 
 // Complete the event handler function for the form
 function runDatetime() {  
@@ -86,8 +92,4 @@ function runDatetime() {
 //   filteredData.forEach(UFOsightings);  
 // };
 
-function reset() {
-  tbody.html("");
-  d3.event.preventDefault();
-  data.forEach(UFOsightings);
-};
+
